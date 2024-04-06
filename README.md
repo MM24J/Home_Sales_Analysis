@@ -1,4 +1,4 @@
-# Home_Sales
+# Home_Sales_Analysis
 
 Using SparkSQL, I was able to create a temporary table and answer the following queries:
 
@@ -12,4 +12,3 @@ What is the average price of a home per "view" rating having an average home pri
 
 I cached the table and partitioned it by 'date_built' on the parquet data and created a temporary table for the parquet data. Finally, I uncached the table.
 
-Note: I was able to complete the challenge utilizing the activities we did in class on this topic as a reference and using Stack Overflow and Google for a few errors I encountered. I looked at the SQL documentation to review a few concepts.
